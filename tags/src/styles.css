@@ -1,0 +1,24 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container-tags {
+  margin-top: 2rem;
+}
+
+.tag {
+  background: #b8e585;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: solid 2px rgb(27, 31, 30);
+  width: 5rem;
+}
+
+.btn {
+  border: transparent;
+  background-color: transparent;
+  color: red;
+  font-size: 1rem;
+  cursor: pointer;
+}

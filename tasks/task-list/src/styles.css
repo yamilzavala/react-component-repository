@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.crossed-out {
+  text-decoration: line-through;
+}

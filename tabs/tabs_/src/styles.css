@@ -1,0 +1,45 @@
+.tabs-container {
+  display: flex;
+  flex-direction: column;
+  width: 70vw;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 2rem auto;
+  border: solid 1px black;
+  border-radius: 2rem;
+  padding: 2rem;
+  min-height: 500px;
+}
+
+.tabs {
+  width: 90%;
+  display: flex;
+  gap: 0.5rem;
+  border-bottom: 1px solid black;
+}
+
+.tab {
+  border: 1px solid black;
+  border-bottom: none;
+  background: transparent;
+  min-width: 70px;
+  height: 20px;
+  color: black;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.active-tab,
+.tab:hover {
+  background: darkslateblue;
+  color: white;
+}
+
+.tab-content {
+  padding-top: 2rem;
+  /* text-align: left; */
+  align-content: flex-start;
+  width: 90%;
+}

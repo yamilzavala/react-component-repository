@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.root-node {
+  cursor: pointer;
+}
+
+.children-container {
+  padding-left: 2rem;
+}
