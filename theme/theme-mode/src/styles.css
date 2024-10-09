@@ -1,0 +1,19 @@
+. .App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+[data-theme="light"] {
+  --color: black;
+  --bg-color: white;
+}
+
+[data-theme="dark"] {
+  --color: white;
+  --bg-color: black;
+}
+
+body {
+  color: var(--color);
+  background-color: var(--bg-color);
+}

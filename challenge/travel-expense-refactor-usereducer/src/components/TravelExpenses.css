@@ -1,0 +1,111 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  font-family: sans-serif;
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+.container {
+  max-width: 30rem;
+  width: 30rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 2rem;
+  color: #807e7e;
+  text-transform: capitalize;
+  align-self: start;
+}
+
+.input-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: 100%;
+  align-items: left;
+  margin-bottom: 1rem;
+}
+.input-container-parent {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.input-container-parent button {
+  height: 50px;
+  border: transparent;
+  background: transparent;
+  cursor: pointer;
+  padding: 0 1rem;
+}
+.input-container label,
+span {
+  text-align: left;
+  font-size: 1rem;
+  font-weight: 600;
+  color: #777779;
+}
+.input-container input {
+  height: 2rem;
+  border: 2px solid #ccc8c8;
+  border-radius: 8px;
+  padding: 10px;
+  color: #777779;
+  outline: none;
+}
+
+.add-btn {
+  color: rgb(207, 46, 240);
+  border: transparent;
+  align-self: start;
+  background-color: transparent;
+  padding-left: 0;
+  padding: 1rem 0;
+  cursor: pointer;
+}
+
+.trasportation-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+.trasportation-container span {
+  align-self: start;
+}
+.trasportation-container select {
+  height: 3.5rem;
+  border: 2px solid rgb(207, 46, 240);
+  border-radius: 8px;
+  padding: 10px;
+  color: #777779;
+  outline: none;
+}
+.totals-container {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+}
+.totals-container p {
+  color: rgb(207, 46, 240);
+  font-weight: 500;
+  text-transform: capitalize;
+}
+.totals-container button {
+  background-color: rgb(207, 46, 240);
+  color: white;
+  width: 150px;
+  border-radius: 0.5rem;
+  border-color: transparent;
+  cursor: pointer;
+}

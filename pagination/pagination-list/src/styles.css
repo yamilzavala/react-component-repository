@@ -1,0 +1,31 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list {
+  list-style: none;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: 300px;
+  place-content: center;
+  margin: 0 auto;
+}
+
+.container-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.selected-btn {
+  background-color: black;
+  color: white;
+}
+
+.btn {
+  cursor: pointer;
+}

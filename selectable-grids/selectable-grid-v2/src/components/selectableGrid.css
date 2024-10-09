@@ -1,0 +1,20 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(var(--cols, 10), 35px);
+  grid-template-rows: repeat(var(--rows, 10), 35px);
+  place-content: center;
+  gap: 0.2rem;
+  height: 100vh;
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: solid 1px black;
+  user-select: none;
+}
+
+.selected {
+  background-color: lightgreen;
+}

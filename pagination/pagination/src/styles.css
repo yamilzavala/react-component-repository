@@ -1,0 +1,57 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+  gap: 2rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  cursor: pointer;
+}
+
+.product-image {
+  width: 200px;
+  height: 200px;
+}
+
+.pagination {
+  margin-top: 1rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+
+.page {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 0.2rem;
+  border: solid 1px black;
+  width: 1rem;
+  cursor: pointer;
+  height: 25px;
+  width: 25px;
+}
+
+.selected {
+  background: grey;
+}
+
+.disabled {
+  opacity: 0;
+}

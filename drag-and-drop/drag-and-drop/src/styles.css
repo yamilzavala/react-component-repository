@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.list-1 {
+  background-color: lightblue;
+  height: 200px;
+}
+.list-2 {
+  background-color: lightgreen;
+  height: 200px;
+}
+
+ul {
+  list-style: none;
+}
+
+li {
+  margin-bottom: 1rem;
+}

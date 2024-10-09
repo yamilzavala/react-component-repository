@@ -1,0 +1,12 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+li {
+  list-style: none;
+  cursor: pointer;
+}
+li:hover {
+  background-color: rgb(198, 241, 189);
+}

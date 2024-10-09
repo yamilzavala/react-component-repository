@@ -1,0 +1,55 @@
+[data-theme="light"] {
+  --bg-color: white;
+  --text-color: black;
+  --heading-color: black;
+}
+
+[data-theme="dark"] {
+  --bg-color: black;
+  --text-color: white;
+  --heading-color: white;
+}
+
+body {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+}
+
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  height: 92vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar {
+  height: 8vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+.navbar span {
+  justify-self: end;
+  cursor: pointer;
+}
+
+.navbar div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+
+.navbar a {
+  color: #5a5858;
+  text-decoration: none;
+  text-transform: capitalize;
+  color: var(--text-color);
+}

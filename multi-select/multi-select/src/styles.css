@@ -1,0 +1,74 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.user-search-container {
+  display: flex;
+  position: relative;
+}
+
+.user-search-input {
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  padding: 8px;
+  border: solid 1px #ccc;
+  border-radius: 1rem;
+}
+
+.user-search-input input {
+  border: none;
+  outline: none;
+  height: 0.6rem;
+  padding: 0.3rem;
+}
+
+.suggestions-list {
+  position: absolute;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 0;
+  margin: 0;
+  background-color: white;
+  border: solid 1px #ccc;
+}
+
+.suggestions-list li {
+  display: flex;
+  align-items: center;
+  gap: 0.8rem;
+  padding: 0.5rem;
+  cursor: pointer;
+  border-bottom: solid 1px #ccc;
+}
+
+.suggestions-list li:last-child {
+  border-bottom: none;
+}
+
+.suggestions-list li:hover {
+  background-color: #ccc;
+}
+
+.suggestions-list li img {
+  height: 20px;
+}
+
+.user-pill {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  border-radius: 1rem;
+  background: black;
+  color: white;
+  padding: 3px 8px;
+  cursor: pointer;
+  height: 20px;
+}
+
+.user-pill img {
+  height: 100%;
+}
