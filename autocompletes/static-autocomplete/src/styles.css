@@ -1,0 +1,40 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 21.4%;
+  height: auto;
+  position: relative;
+  margin: 0 auto;
+}
+
+.suggestions {
+  list-style: none;
+  align-self: flex-start;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border: solid 1px #ccc;
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+  border-top: 0;
+  position: absolute;
+  top: 5px;
+  padding-left: 0;
+}
+
+.suggestions li {
+  align-self: flex-start;
+  width: 100%;
+}
+
+.suggestions li:hover {
+  background-color: #ccc;
+  cursor: pointer;
+}
