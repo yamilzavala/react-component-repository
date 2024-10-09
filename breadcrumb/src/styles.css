@@ -1,0 +1,62 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  padding: 0 1rem;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1rem;
+  margin: 1rem 0;
+}
+
+.product-card {
+  text-align: center;
+  border: solid 1px black;
+  border-radius: 1rem;
+  overflow: hidden;
+}
+
+.product-img {
+  object-fit: cover;
+  height: 200px;
+  width: 100%;
+}
+
+.product-card a {
+  color: black;
+  text-decoration: none;
+}
+
+.btn {
+  width: 100%;
+  height: 50px;
+  color: white;
+  background: black;
+  border-radius: 1rem;
+  cursor: pointer;
+}
+
+.single-product-container {
+  display: grid;
+  place-items: center;
+  width: 80vw;
+  margin: 0 auto;
+}
+
+.breadcrumbs {
+  text-align: left;
+  text-transform: capitalize;
+  font-size: 1rem;
+  margin-bottom: 1rem;
+  width: 80vw;
+  margin: 0 auto;
+}
+.breadcrumbs a {
+  text-decoration: none;
+  color: #333;
+}
+.breadcrumbs span {
+  color: #999;
+}
