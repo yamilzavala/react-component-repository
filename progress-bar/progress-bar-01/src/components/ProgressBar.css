@@ -1,0 +1,16 @@
+.bar {
+  background-color: #ccc;
+  height: 8px;
+}
+
+.bar-contents {
+  height: 100%;
+  background-color: #175a26;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 2000ms linear;
+}
+
+.bar-contents--filled {
+  transform: scaleX(1);
+}

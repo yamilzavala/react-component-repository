@@ -1,0 +1,33 @@
+.container {
+  text-align: center;
+}
+
+.bar {
+  background-color: #ccc;
+  height: 1rem;
+  position: relative;
+}
+
+.bar-contents {
+  height: 100%;
+  background-color: #175a26;
+  width: var(--width-progress);
+  z-index: 2;
+  transition: width 100ms linear;
+}
+
+.text {
+  position: absolute;
+  top: -5%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.white-text {
+  color: white;
+}
+.black-text {
+  color: rgb(17, 17, 17);
+}

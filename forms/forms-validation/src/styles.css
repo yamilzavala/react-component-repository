@@ -1,0 +1,45 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 1rem;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 12px;
+  width: 178px;
+}
+
+label {
+  font-size: 12px;
+}
+
+input {
+  display: block;
+}
+
+input:focus {
+  outline: 2px solid royalblue;
+}
+
+.error {
+  color: red;
+  font-size: 11px;
+  margin-top: 4px;
+}
+
+.hidden {
+  display: none;
+}

@@ -1,0 +1,26 @@
+.product-details-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+img {
+  width: 400px;
+  height: 400px;
+  object-fit: contain;
+}
+
+button {
+  margin-top: 1rem;
+  border: none;
+  background: transparent;
+  font-size: 2rem;
+  cursor: pointer;
+  color: #822ec7;
+}
+
+button:hover {
+  color: #8963a8;
+}

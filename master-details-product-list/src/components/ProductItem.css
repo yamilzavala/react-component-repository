@@ -1,0 +1,16 @@
+article {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  row-gap: 5px;
+  border-bottom: 1px solid #dad7d7;
+  padding: 1rem;
+  width: 300px;
+  cursor: pointer;
+}
+
+img {
+  width: 150px;
+  object-fit: "cover";
+}
