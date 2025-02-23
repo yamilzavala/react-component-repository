@@ -1,0 +1,17 @@
+.option-container {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #ccc;
+  cursor: pointer;
+  padding: 5px;
+}
+
+.option-container:last-child {
+  border-bottom: none;
+}
+
+.option {
+  padding: 5px;
+  font-size: 14px;
+  border-radius: 8px;
+}

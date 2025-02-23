@@ -1,0 +1,90 @@
+.toaster-container {
+  position: relative;
+}
+
+/* Botón principal */
+.calendar-btn {
+  padding: 10px 16px;
+  font-size: 14px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background 0.2s ease-in-out;
+}
+
+.calendar-btn:hover {
+  background-color: #f5f5f5;
+}
+
+/* Toaster - Inicialmente oculto y fuera de la pantalla */
+.toast {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 340px;
+  background: white;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 12px;
+  padding: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  opacity: 0; /* Empieza completamente invisible */
+  transform: translateX(100%); /* Empieza fuera de la pantalla, a la derecha */
+  transition: transform 0.3s ease-out, opacity 0.3s ease-out; /* Animación suave */
+}
+
+/* Cuando el toaster está visible, se mueve a su posición normal */
+.toast.show {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+/* Animación de salida */
+.toast.closing {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+/* Contenido del Toaster */
+.toast-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+/* Botón Undo */
+.undo-btn {
+  background: none;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  padding: 6px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.2s ease-in-out;
+}
+
+.undo-btn:hover {
+  background: #f5f5f5;
+}
+
+/* Botón de cerrar (X) */
+.close-btn {
+  background: none;
+  border: none;
+  font-size: 18px;
+  cursor: pointer;
+  color: #555;
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  opacity: 0;
+  transition: opacity 0.2s ease-in-out;
+}
+
+/* Aparece al hacer hover sobre el toaster */
+.toast:hover .close-btn {
+  opacity: 1;
+}

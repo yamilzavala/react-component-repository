@@ -1,0 +1,51 @@
+.tooltip-container {
+  position: relative;
+  display: inline-block;
+}
+
+.tooltip {
+  position: absolute;
+  background-color: black;
+  color: white;
+  padding: 6px 10px;
+  border-radius: 5px;
+  font-size: 12px;
+  white-space: nowrap;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease-in-out, visibility 0.3s;
+}
+
+/* Tooltip arriba */
+.tooltip-top {
+  bottom: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Tooltip abajo */
+.tooltip-bottom {
+  top: 110%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+/* Tooltip a la izquierda */
+.tooltip-left {
+  right: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Tooltip a la derecha */
+.tooltip-right {
+  left: 110%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+/* Mostrar tooltip con animación */
+.tooltip.visible {
+  opacity: 1;
+  visibility: visible;
+}
