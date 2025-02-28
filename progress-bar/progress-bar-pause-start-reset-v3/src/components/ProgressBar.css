@@ -1,0 +1,10 @@
+.bar {
+  background-color: #ccc;
+  height: 8px;
+}
+
+.bar-contents {
+  background-color: green;
+  height: 100%;
+  transform-origin: left;
+}
